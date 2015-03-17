@@ -1,6 +1,6 @@
 {
   "name": "jsx-webpack-loader",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Webpack loader for jsx-transform",
   "main": "index.js",
   "dependencies": {

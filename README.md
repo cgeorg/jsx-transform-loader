@@ -3,7 +3,7 @@
 ## Usage
 
 ```js
-{..., loader: 'jsx-transform-loader'}
+{..., loader: 'jsx-webpack-loader'}
 ```
 
 ## Supported options
@@ -17,7 +17,7 @@
 ** Make babel-loader run first, and tell it not to run the React JSX transform:
 ```js
 loaders: [
-  {test: /\.js/, exclude: /node_modules/, loader: "jsx-transform-loader"},
+  {test: /\.js/, exclude: /node_modules/, loader: "jsx-webpack-loader"},
   {test: /\.js/, exclude: /node_modules/, loader: "babel-loader?blacklist=react"}
 ]
 ```
