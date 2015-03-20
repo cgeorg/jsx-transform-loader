@@ -11,6 +11,7 @@ module.exports = function (source) {
     ignoreDocblock: !!query.ignoreDocblock,
     jsx: query.jsx,
     docblockUnknownTags: !!query.docblockUnknownTags,
+    unknownTagsAsString: !!query.unknownTagsAsString,
     tagMethods: !!query.tagMethods
   };
 

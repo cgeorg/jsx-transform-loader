@@ -10,6 +10,7 @@
 * Specify the element constructor by providing `?jsx=...` in your loader config.  For instance, `?jsx=React.createElement` or `?jsx=h`.
 * To [ignore doc block](https://github.com/alexmingoia/jsx-transform#docblock), use `?ignoreDocblock` in your loader config. In this case you must also specify the `?jsx` option.
 * Specify `?docblockUnknownTags` to have unknown tag names treated as tags rather than function names.
+* Specify `?unknownTagsAsString` to have unknown tag names treated as strings rather than names.
 * Specify `?tagMethods` to have unknown tag names treated as tags rather than function names.
 
 ## Troubleshooting
