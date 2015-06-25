@@ -2,6 +2,12 @@
 
 ## Usage
 
+Install:
+```
+npm install --save-dev jsx-webpack-loader
+```
+
+Then, in your webpack config:
 ```js
 {..., loader: 'jsx-webpack-loader'}
 ```
@@ -15,7 +21,7 @@
 
 ## Troubleshooting
 * It doesn't work with ES6/babel-loader
-** Make babel-loader run first, and tell it not to run the React JSX transform:
+  * Make babel-loader run first, and tell it not to run the React JSX transform:
 ```js
 loaders: [
   {test: /\.js/, exclude: /node_modules/, loader: "jsx-webpack-loader"},
